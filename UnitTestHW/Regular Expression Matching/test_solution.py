@@ -20,8 +20,6 @@ testcases = [
 def test_is_match(solution, s, p, expected_res):
     assert solution.isMatch(s, p) == expected
 
-"""
 @pytest.mark.xfail
 def test_broken_solution(solution):
-    assert solution.isMatch() == 
-"""
+    assert solution.isMatch() == True
