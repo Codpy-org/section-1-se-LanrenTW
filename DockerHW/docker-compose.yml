@@ -9,5 +9,5 @@ services:
       - ./web:/app # local : container
     depends_on:
       - redis # 先啟動 redis
-    redis:
-      image: redis: latest # 使用 redis 官方 image
+  redis:
+    image: redis:latest # 使用 redis 官方 image
